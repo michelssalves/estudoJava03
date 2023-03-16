@@ -6,6 +6,13 @@ public class User {
     private String lastName;
     private boolean isLogged;
 
+    public User(String firstName, String lastName){
+
+        this.firstName = firstName.toUpperCase();
+        this.lastName = lastName;
+
+
+    }
     public String getFirstName() {
         return firstName;
     }
